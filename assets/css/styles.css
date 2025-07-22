@@ -20,10 +20,10 @@ body {
 .floating-image {
     position: sticky;
     top: 1.25rem;
-    width: 9.375rem;
+    width: 2rem;
     border-radius: 0.625rem;
     box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
-    align-self: flex-start; /* prevents stretching in flex */
+    align-self: flex-start; 
 }
 .flex-child .content {
     flex: 2;
