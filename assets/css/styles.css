@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 1.25rem;
+    font-family: Arial, sans-serif;
+    background-color: #effffc;
+    color: #333;
+    line-height: 1.6;
+}
+/* Flex Container: Used to create a flexible layout for child elements */
+.flex-container {
+    display: flex;
+    position: relative;
+}
+.flex-child img {
+    margin-right: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.floating-image {
+    position: sticky;
+    top: 1.25rem;
+    width: 9.375rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+    align-self: flex-start; /* prevents stretching in flex */
+}
+.flex-child .content {
+    flex: 2;
+}
+/* Header Styles */
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-family: 'worker-sans', sans-serif;
+    color: #972c2c;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #b86e6e;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* Link Styles */
+a {
+  box-shadow: inset 0 0 0 0 #54d670;
+  color: #54d670;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+box-shadow: inset 12.5rem 0 0 0 #54d670;
+  color: white;
+}
+
+/* Garden Style */
+.garden {
+    display: flex;
+    padding: 1.25rem;
+    font-size: 2rem;
+}
